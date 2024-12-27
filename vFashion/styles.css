@@ -1,0 +1,698 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #00aced; /* Change color on hover, e.g., for Instagram */
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 50px;
+    background-image: url('https://demo.brothersthemes.com/goodtailor/wp-content/uploads/sites/5/revslider/home-slider-2/Depositphotos_84133648_original.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+/* Home Header */
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Stretch header to full width */
+    margin-bottom: 20px;
+}
+
+/* Logo and Brand Container */
+.home-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and brand text */
+}
+
+.home-logo {
+    height: 60px; /* Adjust logo size */
+    border-radius: 100px;
+}
+
+.home-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Phone Number Styling */
+ .phone-number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.375;
+    font-size: .9375rem;
+    }
+  
+.phone-number a:hover {
+    color: rgba(255, 255, 255, 1);  
+    }
+ 
+
+.btn-header {
+    border: 0;
+    background-color: rgba(196, 196, 196, .35);
+    box-shadow: none;
+}
+.btn-transparent {
+    background-color: transparent; /* Transparent background */
+    color: rgba(255, 255, 255, 0.8); /* Text color with slight opacity */
+    padding: 0.625rem 2.125rem;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Add a light border for visibility */
+    transition: color 0.3s, border-color 0.3s;
+}
+.btn-transparent:hover {
+    color: rgba(255, 255, 255, 1); /* Full white on hover */
+    border-color: rgba(255, 255, 255, 0.8); /* Border becomes more prominent on hover */
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: .625rem 2.125rem;
+    border-radius: 25rem;
+    border: 0;
+    box-shadow: none;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all .2s ease-out;
+    color: #333;
+    background-color: #ebe9eb;
+}
+
+/* Divider Styling */
+.home-divider {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent line */
+    margin: 10px 0;
+}
+
+/* Navigation Links */
+.home-nav {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.home-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.home-link:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+/* Top Links */
+.home-links-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-links-top .home-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem; /* Large font size for the links */
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.home-links-top .home-link:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Main Content */
+.home-content {
+    flex-direction: column;
+    margin-top: 150px; /* Space below the links */
+}
+
+.home-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem; /* Larger heading */
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.home-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.home-content .btn:hover {
+    background-color: #444;
+}
+
+
+.home-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.home-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home-link:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+/* About Section */
+.about-section,
+.blog-section,
+.course-section,
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-section h2,
+.blog-section h2,
+.course-section h2,
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p,
+.blog-section p,
+.course-section p,
+.contact-section p {
+    line-height: 1.6;
+}
+
+/* Blog Section */
+.video-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 300px;
+    height: 200px;
+}
+
+/* Course Section */
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.course-card {
+    flex: 0 0 300px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-card h3 {
+    margin-top: 10px;
+}
+
+.course-card p {
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+}
+
+/* Contact Section */
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* About Title */
+.about-title {
+    font-size: 3.5rem; /* Larger for more emphasis */
+    color: #333;
+    animation: bounceIn 2s ease-in-out;
+}
+
+/* About Text */
+.about-text {
+    font-size: 1.25rem;
+    color: #555;
+    animation: slideUp 2s ease-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Button Styling */
+.btn-primary {
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Course Section Styling */
+.course-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f1f1;
+}
+
+.course-section h2 {
+    font-size: 2.5rem; /* Increase font size */
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50; /* Attractive dark color */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.course-section h2::after {
+    content: "";
+    display: block;
+    width: 100px; /* Line width */
+    height: 5px; /* Line height */
+    background: linear-gradient(to right, #e74c3c, #f39c12); /* Gradient color for the line */
+    margin: 10px auto 0; /* Centered below the title */
+    border-radius: 10px; /* Rounded edges */
+}
+
+.slider-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.course-card {
+    flex: 0 0 320px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.course-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.course-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.course-card .btn:hover {
+    background-color: #45a049;
+}
+
+/* Slider Buttons */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    z-index: 10;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-btn {
+    left: 10px;
+}
+
+.right-btn {
+    right: 10px;
+}
+
+/* Form Modal Styling */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay.show {
+    display: block;
+    opacity: 1;
+}
+
+.form-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    z-index: 1001;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.form-box.show {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.form-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-box button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #45a049;
+}
+
+.contact-section {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .contact-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form elements */
+    max-width: 500px;
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .contact-form textarea {
+    height: 100px; /* Set height for the message box */
+    resize: none; /* Disable resizing */
+  }
+  
+  .contact-form button {
+    background: none; /* No background color */
+    color: #333; /* Dark text color */
+    font-size: 14px; /* Adjusted font size */
+    font-weight: 600; /* Semi-bold text */
+    padding: 10px 25px; /* Space inside the button */
+    border: 2px solid #333; /* Dark border */
+    border-radius: 3px; /* Slightly rounded corners */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effects */
+  }
+  
+  .contact-form button:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #333; /* Border color remains consistent */
+  }
+  
+  
+  .contact-form button:active {
+    transform: scale(0.95);
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    font-style: italic;
+    color: #999;
+  }
+  
+  
